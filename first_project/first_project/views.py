@@ -14,3 +14,5 @@ def contact(request):
 
 def Home(request):
     return render(request, 'index.html')
+def djang(request):
+    return render(request,'ghar.html')
