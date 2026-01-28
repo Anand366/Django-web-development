@@ -24,7 +24,7 @@ from first_project.views import about,contact,Home,djang
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('about/', about, name='about'),
+    path('about-us/', about, name='about'),
     path('contact/',contact,name='contact'),
     path('home/',Home ,name='home'),
     path('',djang,name='ghar')
